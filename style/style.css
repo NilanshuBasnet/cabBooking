@@ -1,0 +1,75 @@
+body {
+  height: 100vh;
+  font-family: Noto Sans, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  
+}
+
+
+.main-container {
+    text-align: center; /* Center align the content */
+    max-width: 30%; /* Set a max-width to 30% of the page */
+    width: 100%; /* Ensure the container takes full width up to max-width */
+    padding: 20px; /* Add padding for better appearance */
+    background-color: white; /* Set background color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for depth */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+
+.title-image {
+     width:100%;
+     height: auto;
+   }
+.action-button {
+            background-color: #2d3748;
+            color: white; /* White text */
+            border: none; /* Remove border */
+            padding: 15px 0; /* Padding (top and bottom) */
+            text-align: center; /* Centered text */
+            text-decoration: none; /* Remove underline */
+            display: block; /* Block element to take full width */
+            width: 100%; /* Full width */
+            font-size: 16px; /* Font size */
+            margin: 20px 0; /* Margin (top and bottom) */
+            cursor: pointer; /* Pointer cursor on hover */
+            border-radius: 8px; /* Rounded corners */
+            transition: background-color 0.3s ease; /* Smooth transition */
+        }
+.action-button:hover {
+            background-color: #4a5568; 
+}
+
+.input {
+	width: 100%;
+    border-radius: 0.375rem;
+    border: 1px solid #d1d5db; /* Border */
+	height: 40px;
+	padding: 0.75rem 1rem;
+	box-sizing: border-box;
+}
+
+.bottom-text {
+    text-align: center;
+    color: #4b5563; /* Gray-600 */
+}
+
+.bottom-link {
+    font-weight: 600;
+    text-decoration: underline;
+	color: #4b5563;
+}
+
+.errormsg{
+	font-weight: bold;
+	color: red;
+	font-style: italic;
+}
+
+.successmsg{
+	font-weight: bold;
+	color: green;
+	font-style: italic;
+}
